@@ -1,0 +1,31 @@
+li{
+    list-style-type:circle;
+}
+li.spatial{
+    color:darkgreen;
+    font:bold;
+}
+h3+li{
+    color:chartreuse;
+}
+th.Nauser:hover {
+color:chartreuse;
+font:200;
+}
+h3.Nauser{
+    background-color: aqua;
+}
+h3{
+    background-color: rgb(173, 51, 51);
+}
+a:hover{
+    color:rgb(10, 255, 1);
+    font-size: 150%;
+}
+.para{
+    background-image:"C:\Users\LENOVO\Downloads\cs06.jpg";
+    background-repeat: no-repeat;
+    background-position: buttom;
+    background-size: 400px;
+}
+    

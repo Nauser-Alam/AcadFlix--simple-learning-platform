@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paymnet_Page</title>
+</head>
+<body>
+    <form action=""></form> <!--given address is used to fill server address-->
+        <h1>Payment form</h1>
+        <h3>Contact Details</h3>
+    <p>Name: <input type="text" name="name" required></p>
+    <fieldset>
+        <legend>Gender</legend>
+    <p>Male <input type="radio" name="gender" id="gender" required></p>
+    <p>Female <input type="radio" name="gender" id="gender" required></p>
+    </fieldset>
+    <p>Address: <textarea name="address" id="address" cols="80" rows="8"></textarea></p>
+    <p>
+        Pincode: <input type="number" name="pincode" id="pincode">
+    </p>
+    <p>
+        email <input type="email" name="email" id="email">
+    </p>
+    <h3>Payment Imformations</h3>
+    <p>Card Number: <input type="text" name="cardnmuber" id="card nmuber" required></p>
+    <p>Card Holder Name: <input type="text" name="Holder name" id="holder name" required></p>
+    <p>
+        Card Type:
+        <select name="card type" id="card type">
+            <option value="">--select card type--</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="mastercard">Mastercard</option>
+        </select>
+
+    </p>
+    <p>Expire Date: <input type="date" name="expire date" id="expire date" required></p>
+    <p>password: <input type="password" name="pasword" id="password" required></p>
+    <input type="submit" value="Pay Now">
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment_page</title>
+</head>
+<body>
+    <div class="nauser">
+        <h2 style="text-align: center;">Payment page</h2>
+        <hr>
+        <h3>User Imformation</h3>
+        <p>name:* <input type="text" name="name" required placeholder="Nauser Alam"></p>
+        <P>email:* <input type="email" name="email" required placeholder="nauser@gmail.com"></P>
+        <p>password:* <input type="password" name="password" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <P>Male <input type="radio" name="gender"> Female <input type="radio" name="gender"></P>
+        </fieldset>
+        <P>Address: <textarea name="address" cols="52" rows="7" placeholder="enter your address"></textarea></P>
+        <hr>
+        <h3>Card Imformation</h3>
+        <p>Holder Nmae:* <input type="text" name="Holder name" required placeholder="Nauser Alam"></p>
+        <p>Card Number:* <input type="number" name="card number" rqequired placeholder="1111 2222 3333 4444"></p>
+        <p>Expiry Date:* <input type="date" name="expiry date" required placeholder="12-08-2028"></p>
+        <p>card Type:
+            <select name="card type">
+                <option value="">--select card type--</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Visa">Visa</option>
+            </select>
+        </p>
+        <p>CVV:* <input type="number" name="CVV" required placeholder="111"></p>
+        <input type="submit" value="Pay Now">
+        </div>
+        <style>
+            .nauser{
+                margin:20px 500px;
+                padding:50px;
+                border:5px;
+                border-radius:5px;
+                background-color: rgb(143, 219, 242);
+                
+                }
+            
+        </style>
+        <style>
+            input[type="submit"] {
+                    background-color: limegreen;
+                    width:100%;
+                    padding:5px;
+                    border:none;
+                cursor: pointer;}
+        </style>
+        <style>
+            input[type="submit"]:hover{
+                color: rgb(0, 0, 0);
+                background-color: rgb(229, 255, 0);
+            }
+        </style>
+        </body>
+        </html>
+
